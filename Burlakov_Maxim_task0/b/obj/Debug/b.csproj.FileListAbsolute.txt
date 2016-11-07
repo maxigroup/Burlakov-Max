@@ -1,0 +1,6 @@
+H:\EPAM\tasks\task0\Burlakov_Maxim_task0\b\bin\Debug\b.exe.config
+H:\EPAM\tasks\task0\Burlakov_Maxim_task0\b\bin\Debug\b.exe
+H:\EPAM\tasks\task0\Burlakov_Maxim_task0\b\bin\Debug\b.pdb
+H:\EPAM\tasks\task0\Burlakov_Maxim_task0\b\obj\Debug\b.csprojResolveAssemblyReference.cache
+H:\EPAM\tasks\task0\Burlakov_Maxim_task0\b\obj\Debug\b.exe
+H:\EPAM\tasks\task0\Burlakov_Maxim_task0\b\obj\Debug\b.pdb

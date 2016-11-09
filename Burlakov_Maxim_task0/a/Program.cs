@@ -12,7 +12,7 @@ namespace a
             Console.Write("y = ");
             double ay = double.Parse(Console.ReadLine());
             Console.WriteLine("Вы ввели координаты a("+ax+";"+ay+")");
-            if (acheck(ax,ay))
+            if (acheck(ax,ay)) //todo а если я хочу проверить другие графики, что мне делать?
                 Console.WriteLine("Точка a(" + ax + ";" + ay + ") принадлежит окружности");
             else
                 Console.WriteLine("Точка a(" + ax + ";" + ay + ") не принадлежит окружности. Извините нам очень стыдно за это.");
@@ -20,7 +20,7 @@ namespace a
         }
 
         //Проверка по заданию а
-        static bool acheck(double ax, double ay)
+        static bool acheck(double ax, double ay) //todo почему методы класса у тебя именуются с большой буквы, а здесь все методы - с маленькой? Пока ты кодишь для себя выбери один формат именования переменных, методов и придерживайся его везде. Это правило хорошего тона.
         {
             double r = 1; //Радиус
             if ((ax * ax + ay * ay) <= r * r)
@@ -60,9 +60,11 @@ namespace a
             }
             return false;
         }
+
+        //todo где проверка графиков д-к?
     }
 
-    //Слава велосипедам!
+    //Слава велосипедам! //todo героям слава)
     class Vector
     {
         private double x;
@@ -78,7 +80,7 @@ namespace a
             this.x = x;
             this.y = y;
         }
-        public void Set(double x, double y)     //Сеттер
+        public void Set(double x, double y)     //Сеттер //todo на что тебе этот метод, если ты его нигде не использовал?
         {
             this.x = x;
             this.y = y;
@@ -87,7 +89,7 @@ namespace a
         {
             return x;
         }
-        public double GetY()    //Не понимаю что это делает!(шутка)
+        public double GetY()    //Не понимаю что это делает!(шутка) //todo шути-шути)
         {
             return y;
         }

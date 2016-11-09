@@ -10,7 +10,7 @@ namespace b
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Программа для задания 2 \nВведите, пожалуйста, значение h:"); //Нужно быть предельно вежливым!
+            Console.WriteLine("Программа для задания 2 \nВведите, пожалуйста, значение h:"); //Нужно быть предельно вежливым! //todo :) всё правильно говоришь
             double h = double.Parse(Console.ReadLine());
             Console.WriteLine("Вы ввели значение h=" + h );
             double a = Calculatea(h);
@@ -21,7 +21,7 @@ namespace b
             Console.WriteLine("Значение c=" + c);
             double diskr = Discr(a, b, c);
             Console.WriteLine("Дискриминант D=" + diskr);
-            if (diskr > 0)
+            if (diskr > 0)//todo лучше использовать здесь вилку if else else и без return (код становится более читаемым)
             {
                 Console.WriteLine("Имеется два корня:");
                 double x1 = (-b + Math.Sqrt(diskr)) / 2 * a;

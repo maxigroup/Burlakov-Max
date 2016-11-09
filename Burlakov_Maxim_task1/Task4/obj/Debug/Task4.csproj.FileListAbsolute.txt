@@ -1,0 +1,5 @@
+H:\EPAM\tasks\task1\Burlakov_Maxim_task1\Task4\bin\Debug\Task4.exe.config
+H:\EPAM\tasks\task1\Burlakov_Maxim_task1\Task4\bin\Debug\Task4.exe
+H:\EPAM\tasks\task1\Burlakov_Maxim_task1\Task4\bin\Debug\Task4.pdb
+H:\EPAM\tasks\task1\Burlakov_Maxim_task1\Task4\obj\Debug\Task4.exe
+H:\EPAM\tasks\task1\Burlakov_Maxim_task1\Task4\obj\Debug\Task4.pdb

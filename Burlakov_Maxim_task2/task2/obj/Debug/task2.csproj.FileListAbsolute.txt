@@ -1,0 +1,5 @@
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task2\bin\Debug\task2.exe.config
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task2\bin\Debug\task2.exe
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task2\bin\Debug\task2.pdb
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task2\obj\Debug\task2.exe
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task2\obj\Debug\task2.pdb

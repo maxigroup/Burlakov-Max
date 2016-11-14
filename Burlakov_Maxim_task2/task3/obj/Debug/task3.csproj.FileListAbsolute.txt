@@ -1,0 +1,6 @@
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task3\bin\Debug\task3.exe.config
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task3\bin\Debug\task3.exe
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task3\bin\Debug\task3.pdb
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task3\obj\Debug\task3.csprojResolveAssemblyReference.cache
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task3\obj\Debug\task3.exe
+G:\EPAM\tasks\task2\Burlakov_Maxim_task2\task3\obj\Debug\task3.pdb

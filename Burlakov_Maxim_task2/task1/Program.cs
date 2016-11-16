@@ -53,7 +53,7 @@ namespace task1
                 Console.WriteLine();
             }
             Console.WriteLine();
-            return;
+            return;//todo для чего?
         }
 
         //Заменяет все положительные элементы массива на нули

@@ -41,7 +41,7 @@ namespace task2
             for (int i = 0; i < count; i++)
                 Console.Write(arr[i] + " ");
             Console.WriteLine();
-            return;
+            return;//todo для чего?
         }
 
         //Находит сумму неотрицательных элементов в массиве

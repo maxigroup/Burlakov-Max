@@ -33,7 +33,7 @@ namespace task0
                 {
                     Console.WriteLine("Повторить? да/нет");
                     string ans = Console.ReadLine();
-                    if (ans == "да") repeat = true;     //если да то выходим из цикла вопросов и возвращаемся к вводу N
+                    if (ans == "да") repeat = true;     //если да то выходим из цикла вопросов и возвращаемся к вводу N//todo аналогично заданию 1
                     if (ans == "нет") return;           //если нет то завершаем программу
                 }
             }
@@ -45,7 +45,7 @@ namespace task0
             for (int i=0; i<count; i++)
                 Console.Write(arr[i]+ " ");
             Console.WriteLine();
-            return;
+            return;//todo для чего?
         }
         
         //Находит максимальный элемент в массиве
@@ -91,7 +91,7 @@ namespace task0
 
             if (l < j)
                 QuickSort(a, l, j);
-            return;
+            return;//todo для чего?
         }
     }
 }

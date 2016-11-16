@@ -22,7 +22,7 @@ namespace Task2
                     {
                         Console.WriteLine("Введите, пожалуйста, число N: ");
                         N = int.Parse(Console.ReadLine());
-                        if (N <= 0) throw new Exception();
+                        if (N <= 0) throw new Exception();//todo правило хорошего кода всегда обрамлять тело if фигурными скобками
                         corrvalue = true;  //Если мы дошли до сюда, то всё идет по плану
                     }
                     catch(Exception ex)
@@ -43,7 +43,7 @@ namespace Task2
                 {
                     Console.WriteLine("Задать другое N? да/нет");
                     string ans = Console.ReadLine();
-                    if (ans == "да") repeat = true;     //если да то выходим из цикла вопросов и возвращаемся к вводу N
+                    if (ans == "да") repeat = true;     //если да то выходим из цикла вопросов и возвращаемся к вводу N 
                     if (ans == "нет") return;           //если нет то завершаем программу
                 }
             }

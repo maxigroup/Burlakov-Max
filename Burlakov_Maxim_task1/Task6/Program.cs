@@ -22,7 +22,7 @@ namespace Task6
             public void ViewOptions()
             {
                 Console.Write("Параметры надписи:");
-                if (this.bold) Console.Write(" Bold");
+                if (this.bold) Console.Write(" Bold");//todo this не нужно
                 if (this.italic) Console.Write(" Italic");
                 if (this.underline) Console.Write(" Underline");
                 if (!((this.bold)|| (this.italic) || (this.underline))) Console.Write(" None");
@@ -49,7 +49,7 @@ namespace Task6
             Console.WriteLine("Программа для задания 5");
             Options opt = new Options(false, false, false);
             bool finish = false;
-            while (!finish)
+            while (!finish)//todo можно же просто поставить true и не использовать finish
             {
                 bool corrvalue = false;    //корректность значения
                 int value = 0;
@@ -69,6 +69,7 @@ namespace Task6
                         Console.WriteLine("Введено некорректное значение. Повторите ввод. \nОшибка: " + ex);
                     }
                 }
+                //todo а как выйти из цикла?
             }
         }
     }

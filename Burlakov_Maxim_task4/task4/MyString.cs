@@ -16,6 +16,13 @@
             text = input;
         }
 
+        public Boolean Equals(MyString ms1)
+        {
+            if ( (this.Length() == ms1.Length()) || (this.toString().Equals(ms1.toString()) ) )   //мои вкусы очень специфичны
+                return true;
+            return false;
+        }
+
         public static Boolean operator !=(MyString ms1, MyString ms2)
         {
             if (ms1.Equals(ms2))

@@ -1,10 +1,6 @@
-﻿namespace task3
+﻿namespace task1
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
     class User
     {
         private string firstname;
@@ -78,7 +74,7 @@
                 age = value;
             }
         }
-        public User(string firstname, string lastname, string patronymic,DateTime birthday)
+        public User(string firstname, string lastname, string patronymic, DateTime birthday)
         {
             FirstName = firstname;
             LastName = lastname;

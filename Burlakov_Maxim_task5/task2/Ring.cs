@@ -19,7 +19,7 @@
             }
         }
 
-        public Ring(double r,double inr, double x, double y) : base(r, x, y)    //Здесь могла быть ваша реклама
+        public Ring(double r,double inr, double x, double y) : base(r, x, y)    //Здесь могла быть ваша реклама//todo ты, я смотрю, всё шутишь :)
         {
             Inr = inr;
         }

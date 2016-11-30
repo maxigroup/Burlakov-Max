@@ -7,7 +7,7 @@ namespace task4
 {
     public class Event
     {
-        protected DateTime time;
+        protected DateTime time;//todo не очень хорошее название переменной, в которой будет храниться дата
         protected String text;
         protected String tags;
     }

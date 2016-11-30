@@ -16,7 +16,7 @@
             text = input;
         }
 
-        public Boolean Equals(MyString ms1)
+        public Boolean Equals(MyString ms1)//todo лучше переопределить базовый + реализовать GetHashCode
         {
             if ( (this.Length() == ms1.Length()) || (this.toString().Equals(ms1.toString()) ) )   //мои вкусы очень специфичны
                 return true;
@@ -41,7 +41,7 @@
             Console.WriteLine(text);
         }
 
-        public string toString()
+        public string toString()//todo почему бы не переопределить базовый ToString?
         {
             return new string(text);
         }

@@ -17,7 +17,7 @@
             set
             {
                 if (value <= 0)
-                    throw new Exception("Радиус должен быть положительным!");   //Чуть что-кидаем исключение
+                    throw new Exception("Радиус должен быть положительным!");   //Чуть что-кидаем исключение//todo очевыдные комменты бесполезны
                 else
                     r = value;
             }
@@ -44,7 +44,7 @@
                 y = value;
             }
         }
-        public Round(double r, double x, double y)  //Конструктор(кэп)
+        public Round(double r, double x, double y)  //Конструктор(кэп)//todo очевыдные комменты бесполезны
         {
             R = r;
             X = x;

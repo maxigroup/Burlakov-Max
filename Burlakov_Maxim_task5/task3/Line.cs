@@ -8,7 +8,7 @@
 
         public Line(Point start, Point end)
         {
-            if (start != end)
+            if (start != end)//todo а ты переопределил этот оператор для Point? 
             {
                 a = start;
                 b = end;

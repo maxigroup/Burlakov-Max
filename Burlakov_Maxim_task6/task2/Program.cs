@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
 
-    internal class Program
+    internal class Program//todo было бы здорово, если бы ты выделил все эти методы в отдельный класс (например, Parser)
     {
         static void Main(string[] args)
         {

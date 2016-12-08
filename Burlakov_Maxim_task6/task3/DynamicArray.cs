@@ -56,15 +56,15 @@
             }
         }
 
-        public DynamicArray()
+        public DynamicArray()//todo конструкторы объявляются всегда в начале класса, после свойств и полей.
         {
-            Capacity = 8;
+            Capacity = 8;//todo первоначальную настройку лучше в константу
             arr = new T[Capacity];
         }
 
-        public DynamicArray(List<T> list)
+        public DynamicArray(List<T> list)//todo "коллекции .Net не использовать"
         {
-            Capacity = 8;
+            Capacity = 8;//todo для остальных конструкторов не было такого требования
             while(Capacity < list.Count)
             {
                 Capacity = Capacity * 2;
@@ -137,7 +137,7 @@
         /// Добавляет элементы указанной коллекции в конец списка
         /// </summary>
         /// <param name="list"></param>
-        public void AddRange(List<T> list)
+        public void AddRange(List<T> list)//todo "коллекции .Net не использовать"
         {
             if (Length + list.Count > Capacity)
             {

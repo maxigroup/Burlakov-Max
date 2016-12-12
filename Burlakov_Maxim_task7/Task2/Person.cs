@@ -20,7 +20,7 @@
             }
         }
 
-        public Event Evt { get; set; }
+        public Event Evt { get; set; }//todo очень важно именовать поля корректно, так проще потом разбираться в коде через некоторое время
 
         public Person (string name)
         {

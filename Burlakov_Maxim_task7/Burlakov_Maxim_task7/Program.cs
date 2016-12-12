@@ -11,14 +11,14 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Программа для задания 1");
-            string[] arr = { "каждый", "охотник", "желает", "знать", "где", "сидит", "фазан" };
+            string[] arr = { "каждый", "охотник", "желает", "знать", "где", "сидит", "фазан" }; // todo "s sss aaaa asd das asdasd asd gg asd f".Split(' ') так быстрее кодить
             Console.WriteLine("Исходный массив строк: ");
             foreach(string str in arr)
             {
                 Console.WriteLine(str);
             }
 
-            arr = StringSort(arr);
+            arr = StringSort(arr, StrCompar);//todo чтобы вот так было
             Console.WriteLine("Отсортированный массив строк: ");
             foreach (string str in arr)
             {
@@ -61,10 +61,9 @@
         /// </summary>
         /// <param name="arr"></param>
         /// <returns></returns>
-        static string[] StringSort(string[] arr)
+        static string[] StringSort(string[] arr, DelegateStrCompar delegateStrCompar)//todo имелось в виду, что ты делегат входным параметром задаш, чтобы в случае изменившейся реализации (ну есть у тебя не 1 метод сравнения, а 2) не нужно было бы переписывать вот это метод.
         {
-            //очень сложно понять реальное назначение делегатов
-            DelegateStrCompar delegateStrCompar = new DelegateStrCompar(StrCompar);
+            //очень сложно понять реальное назначение делегатов //todo неправда
             string temp;
             for (int i = 0; i < arr.Length; i++)
             {

@@ -4,9 +4,9 @@
 
     public delegate void Escape(Person p);
 
-    public class Event
+    public class Event//todo тогда уж Events
     {
-        public event Came came;
+        public event Came came;//todo как то это на костыли очень сильно похоже. Тебе event здесь писать уже не надо, поскольку ты выше объявил делегат. Событие - это частный случай делегата. Либо ты прогаешь событиями, либо делегатами.
 
         public event Escape escape;
 

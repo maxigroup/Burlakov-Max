@@ -28,7 +28,7 @@
                     pers.Evt.escape += p.SayBye;
                 }
 
-                pers.Evt.OnCame(pers, time);
+                pers.Evt.OnCame(pers, time);//todo но они же в разное время дня приходят по условию
             }
 
             nowWorking.Reverse();
